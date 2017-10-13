@@ -14,7 +14,7 @@ define('app',['exports'], function (exports) {
   var App = exports.App = function App() {
     _classCallCheck(this, App);
 
-    this.message = 'Hello World!';
+    this.message = 'Hello World! (from Aurelia)';
   };
 });
 define('environment',["exports"], function (exports) {
