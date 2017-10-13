@@ -1,5 +1,5 @@
-define('app',['exports'], function (exports) {
-  'use strict';
+define('app',["exports"], function (exports) {
+  "use strict";
 
   Object.defineProperty(exports, "__esModule", {
     value: true
@@ -13,8 +13,6 @@ define('app',['exports'], function (exports) {
 
   var App = exports.App = function App() {
     _classCallCheck(this, App);
-
-    this.message = 'Hello World! (from Aurelia)';
   };
 });
 define('environment',["exports"], function (exports) {
@@ -69,5 +67,5 @@ define('resources/index',["exports"], function (exports) {
   exports.configure = configure;
   function configure(config) {}
 });
-define('app.html!text', ['module'], function(module) { module.exports = "<template>\n  <h1>${message}</h1>\n</template>\n"; });
+define('app.html!text', ['module'], function(module) { module.exports = "<template>\n<div class=\"ui inverted menu\">\n\t<a class=\"item\" href=\"#\">david.steinberg.codes</a>\n\t<a class=\"item\" href=\"#\">contact</a>\n</div>\n</template>\n"; });
 //# sourceMappingURL=app-bundle.js.map
