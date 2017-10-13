@@ -67,5 +67,5 @@ define('resources/index',["exports"], function (exports) {
   exports.configure = configure;
   function configure(config) {}
 });
-define('app.html!text', ['module'], function(module) { module.exports = "<template>\n<div class=\"ui inverted menu\">\n\t<a class=\"item\" href=\"#\">david.steinberg.codes</a>\n\t<a class=\"item\" href=\"#\">contact</a>\n</div>\n</template>\n"; });
+define('app.html!text', ['module'], function(module) { module.exports = "<template>\n<div class=\"ui inverted attached stackable menu\">\n\t<a class=\"item\" href=\"#\">david.steinberg.codes</a>\n\t<a class=\"item\" href=\"#\">contact</a>\n</div>\n</template>\n"; });
 //# sourceMappingURL=app-bundle.js.map
