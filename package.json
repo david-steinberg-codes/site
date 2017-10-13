@@ -1,0 +1,14 @@
+{
+  "name": "david-steinberg-codes-site",
+  "version": "1.0.0",
+  "description": "My personal homepage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-steinberg-codes/site.git"
+  },
+  "author": "David Steinberg",
+  "homepage": "https://david.steinberg.codes",
+  "dependencies": {
+    "semantic-ui": "^2.2.13"
+  }
+}
