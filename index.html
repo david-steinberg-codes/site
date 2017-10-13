@@ -1,11 +1,16 @@
+<!DOCTYPE html>
 <html>
-<head>
-	<title>David Steinberg Codes</title>
-	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <head>
+    <meta charset="utf-8">
+    <title>David Steinberg Codes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	<script src="semantic/dist/semantic.min.js"></script>
-</head>
-<body>
-	Hello World
-</body>
+	<script src="semantic/semantic.min.js"></script>
+  </head>
+
+  <body aurelia-app="main">
+    <script src="scripts/vendor-bundle.js"></script>
+    <script>SystemJS.import("aurelia-bootstrapper").catch(function(err) { console.log(err); })</script>
+  </body>
 </html>
