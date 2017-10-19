@@ -67,5 +67,5 @@ define('resources/index',["exports"], function (exports) {
   exports.configure = configure;
   function configure(config) {}
 });
-define('app.html!text', ['module'], function(module) { module.exports = "<template>\n<div class=\"ui inverted attached stackable menu\">\n\t<a class=\"item\" href=\"#\">david.steinberg.codes</a>\n\t<a class=\"item\" href=\"#\">contact</a>\n</div>\n</template>\n"; });
+define('app.html!text', ['module'], function(module) { module.exports = "<template>\n<div class=\"ui inverted attached stackable menu\">\n\t<a class=\"item\" href=\"#\">david.steinberg.codes</a>\n\t<a class=\"item\" href=\"#\">contact</a>\n</div>\n\nWelcome! If you're here looking at this right now, that means you probably typed in my domain name after seeing my email address. The site isn't quite ready yet (clearly), but the Aurelia + Semantic UI infrastructure is already in place on Github Pages. Feel free to poke around and see what I'm working on, and thanks for your patience!\n\n</template>\n"; });
 //# sourceMappingURL=app-bundle.js.map
